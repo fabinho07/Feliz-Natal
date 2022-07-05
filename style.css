@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* header-content */
+
+.header-content {
+    width: 100%;
+    background-color: #F7C7B9;
+    padding: 30px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo h1 {
+    font-weight: 500;
+}
+
+.menu ul {
+    display: flex;
+    gap: 40px;
+    font-size: 1.5rem;
+}
+
+.menu a {
+    color: #161212;
+    transition: 0.8s;
+}
+
+.menu a:hover {
+    background-color: #f39898;
+}
+
+.feliz {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feliz1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feliz1 h2 {
+    font-size: 1.8rem;
+}
+
+.feliz1 p {
+    color: #404040;
+    font-style: normal;
+}
+
+.feliz1 img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.feliz2 img {
+    width: 400px;
+}
+
+/* section acessorios */
+
+.section-content {
+    width: 100%;
+    padding: 30px;
+}
+
+.acessorios h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.acessorios p {
+    text-align: center;
+    color: #404040;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.itens {
+    width: 100%;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.presentes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.presentes img {
+    width: 150px;
+}
+
+.presentes strong {
+    margin-left: 33px;
+}
+
+.enfeites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.enfeites img {
+    width: 150px;
+}
+
+.enfeites strong {
+    margin-left: px;
+}
+
+.bengala {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bengala {
+    width: 150px;
+}
+
+.bengala strong {
+    margin-left: 60px;
+}
+
+.bengala p {
+    margin-left: 50px;
+    color: #404040;
+}
+
+.bota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.bota {
+    width: 150px;
+}
+
+.bota strong {
+    margin-left: 60px;
+}
+
+.bota p {
+    margin-left: 60px;
+    color: #404040;
+}
+
+/* comemore-content */
+
+.comemore-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 50px;
+    background-color: #F7C7B9;
+    flex-wrap: wrap;
+}
+
+.comemore1 img {
+    width: 250px;
+}
+
+.comemore h4 {
+    font-size: 2rem;
+    font-style: normal;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.comemore p {
+    font-size: 1rem;
+    color: #404040;
+}
+
+.btn {
+    margin-top: 20px;
+    
+}
+
+.btn img {
+    width: 170px;
+    cursor: pointer;
+}
+
+/* footer */
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.rodape-feliz {
+    display: flex;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+/* responsivo */
+
+@media(max-width:600px) {
+    .menu {
+        display: none;
+    }
+
+    .comemore {
+        margin-top: -100px;
+    }
+}
+
+@media(max-width:376px) {
+    .rodape-feliz {
+        margin-top: -5px;
+    }
+}
